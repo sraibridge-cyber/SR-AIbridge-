@@ -157,7 +157,7 @@ data/                  # ghost_face.log (36.8 KB), op3_analysis.json, session_lo
 index.html / devour.html / state.html   # Three single-file frontends, zero dependencies
 ```
 
-**Test suite:** 10 test files (test_cc_empirical_v3.js at 29.8 KB is the heaviest). 1,039 proven tests committed — [Honest Validation Audit v2 @ 79008e9](https://github.com/sraibridge-cyber/ghost9/commit/79008e9).
+**Test suite:** 10 test files. The v3 battery declares **2,325 tests** across the latest version of each suite (CC empirical: 659 · Tesseract: 1,100 · Whitlock: 530 · B4 Invariants: 33 · fresh: 3). Baseline proven count: 1,039 — [Honest Validation Audit v2 @ 79008e9](https://github.com/sraibridge-cyber/ghost9/commit/79008e9).
 
 **The Whitlock Coefficient:**
 ```
@@ -209,7 +209,7 @@ W_v3(n) = (n + 4i) / 17
 | Type-safe core (`harmony_result.py`) | ✅ Complete |
 | Forge engine | ✅ Implemented |
 | Genesis event bus | ✅ Implemented |
-| CC v3.0 enforcement layer | ✅ Proven — n=3, 1,039 tests |
+| CC v3.0 enforcement layer | ✅ Proven — n=3, 2,325 declared / 1,039 audited tests |
 | GHOST9 kernel (Bootstrap) | ✅ Active |
 | Tier 1 engine modules (9) | 🔧 Framework wired, logic pending |
 | Tier 2 engine modules (17) | 🔧 Framework wired, logic pending |

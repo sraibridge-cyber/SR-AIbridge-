@@ -170,7 +170,7 @@ W_v3(n) = (n + 4i) / 17
 | **4i** | Phase displacement from ideal coherence: φ = arctan(4/n) |
 | **17** | 1 Prime Law + 16 Resonance Invariants |
 
-**8 Semantic Domains:** D1 Syntactic · D2 Structural · D3 Temporal · D4 Spatial · D5 Directive · D6 Harmonic · D7 Contextual · D8 Spectral
+**8 Semantic Domains:** D1 Signal · D2 Energy · D3 Temporal · D4 Spatial · D5 Cognitive · D6 Ethical · D7 Declarative · D8 Novelty
 
 **Current kernel state:** n=3 · |W_v3|=0.2941 · φ=53.1° · Bootstrap phase  
 **Production threshold:** n≥10 · τ=0.9995  
